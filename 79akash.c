@@ -10,8 +10,10 @@ int main(){
        }
     }
        if(count==2)
-       printf("\n %d is prime number!", num);
+       printf("%d is prime number!\n", num);
+       if(count == 1 || count == 0)
+       printf("%d is neither prime nor composite\n",num);
        else
-       printf("%d is composite number!", num)   ;       
+       printf("%d is composite number!\n", num);       
        return 0;                               
     }
